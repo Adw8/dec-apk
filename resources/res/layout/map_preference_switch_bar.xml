@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?android:attr/colorBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="0x7f0900d8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/settingslib_switchbar_margin" android:minHeight="@dimen/settingslib_min_switch_bar_height" android:paddingStart="@dimen/settingslib_switchbar_padding_left" android:paddingEnd="@dimen/settingslib_switchbar_padding_right">
+        <TextView android:textAppearance="?attr/textAppearanceTitleLarge" android:textSize="20sp" android:textColor="@android:color/Teal_700" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@android:id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="@dimen/settingslib_switch_title_margin" android:letterSpacing="-0.0167" android:layout_marginVertical="@dimen/settingslib_switch_title_margin"/>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/map_widget_frame" android:layout_width="wrap_content" android:layout_height="48dp">
+            <com.google.android.material.switchmaterial.SwitchMaterial android:layout_gravity="center_vertical" android:id="@+id/switch_widget" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="48dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph_main" app:startDestination="@+id/overview">
+    <fragment android:label="@string/settings_title" android:name="dev.kdrag0n.virtcontainer.ui.overview.OverviewFragment" android:id="@+id/overview"/>
+    <fragment android:label="@string/create_title" android:name="dev.kdrag0n.virtcontainer.ui.create.CreateFragment" android:id="@+id/create"/>
+    <fragment android:label="@string/container_details_title" android:name="dev.kdrag0n.virtcontainer.ui.container.details.ContainerDetailsFragment" android:id="0x7f09008e"/>
+    <fragment android:label="@string/terminal_title" android:name="dev.kdrag0n.virtcontainer.ui.terminal.TerminalFragment" android:id="@+id/terminal"/>
+    <fragment android:label="@string/settings" android:name="dev.kdrag0n.virtcontainer.ui.settings.root.RootSettingsFragment" android:id="@+id/settings_root">
+        <deepLink app:uri="android-app://dev.kdrag0n.virtcontainer/settings_root"/>
+    </fragment>
+    <fragment android:label="@string/settings_port_forward" android:name="dev.kdrag0n.virtcontainer.ui.settings.forward.PortForwardFragment" android:id="@+id/settings_port_forward"/>
+    <fragment android:label="@string/settings_port_forward_create" android:name="dev.kdrag0n.virtcontainer.ui.settings.forward.create.PortForwardFragment" android:id="@+id/settings_port_forward_create"/>
+    <fragment android:label="@string/settings_usb" android:name="dev.kdrag0n.virtcontainer.ui.settings.usb.UsbFragment" android:id="@+id/settings_usb"/>
+    <fragment android:label="@string/settings_debug" android:name="dev.kdrag0n.virtcontainer.ui.settings.debug.DebugSettingsFragment" android:id="@+id/settings_debug"/>
+    <fragment android:label="@string/about" android:name="dev.kdrag0n.app.ui.about.AboutFragment" android:id="@+id/about">
+        <action android:id="@+id/action_about_to_licenses" app:destination="0x7f09000f"/>
+    </fragment>
+    <fragment android:label="@string/about_licenses" android:name="dev.kdrag0n.app.ui.about.LicensesFragment" android:id="0x7f09000f"/>
+</navigation>

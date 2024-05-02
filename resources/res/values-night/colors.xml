@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="settingslib_thumb_disabled_color">@android:color/Red_700</color>
+    <color name="settingslib_thumb_off_color">@android:color/Pink_800</color>
+    <color name="settingslib_track_off_color">@android:color/Red_700</color>
+    <color name="settingslib_track_on_color">@android:color/bright_foreground_disabled_holo_light</color>
+    <color name="splash_background">@android:color/Teal_700</color>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="0x7f090154" app:startDestination="@+id/onboarding_adb_dev_options">
+    <fragment android:label="@string/onboarding_adb_dev_options" android:name="dev.kdrag0n.app.ui.onboarding.adb.dev.AdbDevOptionsFragment" android:id="@+id/onboarding_adb_dev_options"/>
+    <fragment android:label="@string/onboarding_adb_pair" android:name="dev.kdrag0n.virtcontainer.ui.onboarding.adb.pair.AdbPairFragment" android:id="@+id/onboarding_adb_pair"/>
+</navigation>

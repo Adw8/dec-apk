@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="0x7f090153" app:startDestination="@+id/onboarding_welcome">
+    <fragment android:label="@string/onboarding_welcome" android:name="dev.kdrag0n.virtcontainer.ui.onboarding.welcome.WelcomeFragment" android:id="@+id/onboarding_welcome"/>
+    <fragment android:label="@string/onboarding_device_support" android:name="dev.kdrag0n.virtcontainer.ui.onboarding.support.DeviceSupportFragment" android:id="@+id/onboarding_device_support"/>
+    <fragment android:label="@string/onboarding_adb_dev_options" android:name="dev.kdrag0n.app.ui.onboarding.adb.dev.AdbDevOptionsFragment" android:id="@+id/onboarding_adb_dev_options"/>
+    <fragment android:label="@string/onboarding_adb_pair" android:name="dev.kdrag0n.virtcontainer.ui.onboarding.adb.pair.AdbPairFragment" android:id="@+id/onboarding_adb_pair">
+        <action android:id="@+id/action_onboarding_adb_pair_to_next" app:destination="0x7f09016f"/>
+    </fragment>
+    <fragment android:label="@string/onboarding_config" android:name="dev.kdrag0n.virtcontainer.ui.onboarding.config.ConfigFragment" android:id="0x7f09016f"/>
+</navigation>

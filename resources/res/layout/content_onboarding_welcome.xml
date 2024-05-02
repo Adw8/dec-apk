@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="0x7f0900f2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="32dp" android:src="@drawable/illust_not_found" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@null"/>
